@@ -19,11 +19,8 @@ exports.store = (req, res) => {
 
 exports.update = (req, res) => {
     // const {name, email, password} = req.body
-    Transactions.update(req.body,{where : {id: req.params.id}}).then(hubahuba => {
-        res.send({
-            Pesan: 'Sukses',
-            Updated : hubahuba.name
-        })
+    Transactions.update(req.body,{where : {id: req.params.id}}).then(data => {
+        res.send(data)
     })
 }
 
