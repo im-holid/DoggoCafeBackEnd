@@ -57,8 +57,8 @@ follow these steps to install
 ```bash
 git clone https://github.com/im-holid/DoggoCafe.git
 cd DoggoCafe
-npm install #or yarn if using yarn
-npm start #or yarn
+npm install #or yarn install if using yarn
+npm start #or yarn install
 react-native run-ios #for ios
 react-native run-android #for android
 ```
