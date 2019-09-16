@@ -1,10 +1,10 @@
 {
-  "name": "finaltest",
+  "name": "doggocafebackend",
   "version": "1.0.0",
-  "description": "LMFAO",
+  "description": "DoggoCafeServer",
   "main": "index.js",
   "scripts": {
-    "test": "lmao",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
   "repository": {
@@ -14,7 +14,7 @@
   "keywords": [
     "lmao"
   ],
-  "author": "LMFAO",
+  "author": "GigaPudding",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -22,9 +22,9 @@
     "express-group-routes": "^1.1.0",
     "mysql": "^2.17.1",
     "mysql2": "^1.7.0",
-    "nodemon": "^1.19.1",
+    "nodemon": "^1.19.2",
     "pg": "^7.12.1",
-    "sequelize": "^5.18.0",
+    "sequelize": "^5.18.4",
     "sequelize-cli": "^5.5.1"
   }
 }

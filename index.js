@@ -5,7 +5,9 @@ require('express-group-routes')
 const app = express()
 const port = process.env.PORT || 3000
 
+app.use(bodyParser.urlencoded({ extended: true}))
 app.use(bodyParser.json())
+app.use('/static',express.static('public'))
 
 const categoryRoutes = require('./routes/categoryRoutes')
 const menusRoutes = require('./routes/menusRoutes')
@@ -20,5 +22,4 @@ app.use(categoryRoutes)
 app.use(menusRoutes)
 app.use(transactionRoutes)
 app.use(orderRoutes)
-
-app.listen(port, () => console.log(`server running on port ${port}!!`))
+app.listen(port, ()=>console.log(`server running on port ${port}!!`))

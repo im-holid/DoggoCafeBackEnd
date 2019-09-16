@@ -35,7 +35,7 @@ module.exports = {
         type: Sequelize.DOUBLE
       },
       status: {
-        type: Sequelize.TINYINT
+        type: Sequelize.BOOLEAN
       },
       createdAt: {
         allowNull: false,

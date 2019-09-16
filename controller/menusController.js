@@ -19,19 +19,13 @@ exports.showByCategory = (req, res) => {
 }
 
 exports.store = (req, res) => {    
-            Menus.create({
-                categoryId : req.body.categoryId,
-                name : req.body.name,
-                price : req.body.price,
-                image : req.body.image
-
-            }).then(Menus => {
-                res.send({
-                    messages: "success",
-                    Menus:Menus.name
-            })
-        })
-    }
+    Menus.create(req.body).then(blabla => {
+        res.send({
+            messages: blabla.id
+            
+    })
+})
+}
 
 exports.update = (req, res) => {
     // const {name, email, password} = req.body
