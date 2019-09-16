@@ -2,7 +2,7 @@
 
 ## Important
 
-This is a complete project as a customer side, I already make endpoint available on [Back-End](https://github.com/im-holid/doggoKostBackEnd) server in another repo. Althought it's already complete you may find some bug's here. feel free to contact me below or just make another branch in my repo
+This is a complete project as a customer side, I already make endpoint available on [Back-End](https://github.com/im-holid/doggoCafeBackEnd) server in another repo. Althought it's already complete you may find some bug's here. feel free to contact me below or just make another branch in my repo
 
 ## Doggo Cafe
 
